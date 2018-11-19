@@ -2,6 +2,8 @@
 
 It's exactly what it reads: Use Docker to build a [MicroPython](https://micropython.org) image with the [Pixel32](http://github.com/murilopolese/kano-pixel-kit-pixel32) files in it.
 
+You will need internet connection.
+
 # How to build?
 
 Assuming you have Docker installed and running:
