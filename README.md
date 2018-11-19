@@ -1,6 +1,6 @@
-# Build Pixel32 MicroPython image on a Docker
+# Build Pixel32 FAT partition image on a Docker
 
-It's exactly what it reads: Use Docker to build a [MicroPython](https://micropython.org) image with the [Pixel32](http://github.com/murilopolese/kano-pixel-kit-pixel32) files in it.
+It's exactly what it reads: Use Docker to build a FAT partition image with the [Pixel32](http://github.com/murilopolese/kano-pixel-kit-pixel32) files in it.
 
 # How to use it?
 
