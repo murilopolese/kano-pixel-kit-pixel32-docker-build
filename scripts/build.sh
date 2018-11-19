@@ -6,7 +6,6 @@ cd /
 git clone https://github.com/murilopolese/kano-pixel-kit-pixel32.git pixel32
 
 # Install front end dependencies and build it
-cd /pixel32/www && git checkout v0.2.2
 cd /pixel32/www && yarn install && yarn build
 
 cd /
