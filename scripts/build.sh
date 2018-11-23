@@ -22,12 +22,12 @@ mkfs.fat -S 4096 -f 1 -s 1 /build/pixel32.img
 # https://stackoverflow.com/questions/22385189/add-files-to-vfat-image-without-mounting
 echo 'Moving files to FAT image file without having to mount it'
 mcopy -i build/pixel32.img pixel32/www/dist/index.html.gz ::index.html
-mcopy -i build/pixel32.img pixel32/python/src/boot.py ::boot.py
-mcopy -i build/pixel32.img pixel32/python/src/main.py ::main.py
-mcopy -i build/pixel32.img pixel32/python/src/microDNSSrv.py ::microDNSSrv.py
-mcopy -i build/pixel32.img pixel32/python/src/microWebSrv.py ::microWebSrv.py
-mcopy -i build/pixel32.img pixel32/python/src/PixelKit.py ::PixelKit.py
-mcopy -i build/pixel32.img pixel32/python/src/PixelTurtle.py ::PixelTurtle.py
-mcopy -i build/pixel32.img pixel32/python/src/webrepl_cfg.py ::webrepl_cfg.py
+mcopy -i build/pixel32.img pixel32/python/boot.py ::boot.py
+mcopy -i build/pixel32.img pixel32/python/main.py ::main.py
+mcopy -i build/pixel32.img pixel32/python/microDNSSrv.py ::microDNSSrv.py
+mcopy -i build/pixel32.img pixel32/python/microWebSrv.py ::microWebSrv.py
+mcopy -i build/pixel32.img pixel32/python/PixelKit.py ::PixelKit.py
+mcopy -i build/pixel32.img pixel32/python/PixelTurtle.py ::PixelTurtle.py
+mcopy -i build/pixel32.img pixel32/python/webrepl_cfg.py ::webrepl_cfg.py
 
 echo "DONE!"
